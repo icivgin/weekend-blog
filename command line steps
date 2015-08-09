@@ -1,0 +1,6 @@
+mkdir weekend_blog_project
+cd weekend_blog_project
+rvm use gemset ruby-2.2.2@rails4.2.3
+rails new . -d postgresql
+rails s
+rake db:create
