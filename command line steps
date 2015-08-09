@@ -4,3 +4,16 @@ rvm use gemset ruby-2.2.2@rails4.2.3
 rails new . -d postgresql
 rails s
 rake db:create
+git init
+git add .
+git commit -m 'init commit'	
+added all needed routes
+
+add models
+modify models
+migrate db
+check models
+add controllers and views
+add current user in app cont
+testing suite
+
