@@ -1,0 +1,12 @@
+<div class="container">
+	<h1>Sign Up</h1>
+	<%= form_for @user, html: {class: "form-group"} do |f| %>
+		<%= f.label :username %>:
+		<%= f.text_field :username, class: "form-control", placeholder: "Add username here...", :required => true, :autofocus => true%><br />
+
+		<%= f.label :password %>:
+		<%= f.text_field :password, class: "form-control", placeholder: "Add password here...",  :required => true,type: "password" %><br />
+
+		<%= f.submit "Sign Up", class: 'btn btn-primary'%>
+	<% end %>
+</div>

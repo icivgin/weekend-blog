@@ -1,0 +1,9 @@
+<%= form_for @post, html: {class: "form-group"} do |f| %>
+	<%= f.label :title %>:
+	<%= f.text_field :title, class: "form-control", placeholder: "Add title here...", :required => true, :autofocus => true%><br />
+
+	<%= f.label :content %>:
+	<%= f.text_area :content, class: "form-control", placeholder: "Add content here...",  :required => true %><br />
+
+	<%= f.submit "Create Post", class: 'btn btn-primary'%>
+<% end %>

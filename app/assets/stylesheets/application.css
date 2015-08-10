@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+.navbar-default {
+	background-color: #8BBEB2;
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 1px solid #999;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5 {color: #373F51;}
+
+a {color: #58A4B0;}

@@ -8,12 +8,18 @@ git init
 git add .
 git commit -m 'init commit'	
 added all needed routes
-
 add models
 modify models
 migrate db
 check models
+
 add controllers and views
+	rails g controller users new create show
+	rails g controller sessions new create destroy
+	rails g controller posts ALL
 add current user in app cont
+
+
+add authorization
 testing suite
 
