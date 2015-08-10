@@ -1,28 +1,27 @@
-== README
+== Weekend Mini-Blog
+Here are the steps I took to start this app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+mkdir weekend_blog_project
+cd weekend_blog_project
+rvm use gemset ruby-2.2.2@rails4.2.3
+rails new . -d postgresql
+rails s
+rake db:create
+git init
+git add .
+git commit -m 'init commit'	
+added all needed routes
+add models
+modify models
+migrate db
+check models
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+add controllers and views
+	*rails g controller users new create show
+	*rails g controller sessions new create destroy
+	*rails g controller posts ALL
+add current user in app cont
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+add authorization
+testing suite
